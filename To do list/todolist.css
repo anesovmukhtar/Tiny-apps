@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(155deg, rgb(206, 210, 245), rgb(242, 243, 242) );
+}
+
+.container .heading {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 128, 0);
+    font-size: 45px;
+}
+#todo-wrapper #input {
+    border-radius: 2rem;
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid rgb(32, 32, 32); 
+}
+
+#add-btn {
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: rgb(0, 128, 0);
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 0;
+}
+#add-btn:hover {
+    background-color:rgb(2, 68, 5);
+}
+#add-btn:focus-visible {
+    border: 3px solid black;
+}
+ .wrapper {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+ .checkbox:checked ~ .task {
+    text-decoration: line-through;
+}
+
+.checkbox {
+    margin: 5px;
+    cursor: pointer;
+}
+.up-button, .down-button, .delete {
+    padding: 0;
+    border: none;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-right: 3px;
+}
+
+#delete {
+    font-size:20px;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-left: 3px;
+}
+#delete:hover {
+    background-color: rgb(136, 132, 133);
+    transition:  all 0.5s ease-out;
+}
+.up-button:hover {
+    background-color: rgb(29, 48, 48);
+    transition:  all 0.5s ease-out;
+}
+.down-button:hover {
+    background-color: rgb(29, 48, 48);
+    transition: all 0.5s ease-out;
+} 
+
+#task-container {
+    padding-left: 0;
+    
+}
+#task-container li {
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 7px;
+    border: 1px solid black;
+    margin-bottom: 7px;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+ }
+ .task {
+    flex: 1;
+ }
+
+ul.features-wrapper li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 8px;
+    cursor: pointer;
+}

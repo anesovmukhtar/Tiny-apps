@@ -1,0 +1,105 @@
+body {
+    background-image: url(pexels-padrinan-19670.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: middle;
+    height: 100vh;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    box-shadow: 20px 12px 12px rgba(0, 0, 0, 0.3);
+}
+#card {
+   background: linear-gradient(135deg, rgba(0, 132, 255, 0.5), rgb(197, 219, 145));
+   padding: 10px;
+   box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.315);
+   height: 100px;
+   transition: height .6s ease;
+   
+}
+.input-form {
+    position: relative;
+    margin-left: 2rem;
+    
+}
+ #input {
+    width: 85%;
+    height: 45px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    
+}
+#search-icon{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(96, 134, 128);
+    background: transparent;
+    position: absolute;
+    top: 8px;
+    background-color: #fff;
+    padding: 7.5px 0;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.location-name {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.596);
+    visibility: hidden;
+    font-size: 1.5rem;
+}
+.weather-box, .weather-details, #icon-desc-wrapper, .not-found {
+    visibility: hidden;
+}
+
+.weather-icon {
+    font-size: 5rem;
+    margin-bottom: 0;
+    
+}
+.temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(49, 58, 70);
+}
+.description {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(49, 58, 70);
+}
+
+
+.bx-water, .humidity-info, .bx-wind, .wind-info {
+    font-size: 2rem;
+    color:rgb(49, 58, 70) ;
+}
+.bx-water, .bx-wind {
+    font-size: 3rem;
+}
+
+
+.not-found {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+    
+    
+}
+.not-found img {
+    width: 70%;
+    height: 10rem;
+    
+
+}
+.not-found-text {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}

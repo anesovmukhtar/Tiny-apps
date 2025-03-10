@@ -1,0 +1,84 @@
+
+body {
+    background-color: rgb(60, 75, 145);
+    font-family: sans-serif;
+}
+.box-1 {
+    background-color: rgb(52, 71, 114);
+    color: rgb(243, 243, 243);
+}
+.heading {
+    font-weight: bold;
+}
+.box-2 {
+    background-color: rgb(43, 68, 85);
+}
+.quote-btn {
+    background-color: rgb(134, 111, 161);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.quote-btn:hover {
+    background-color:rgb(190, 186, 186);
+}
+.card {
+    box-shadow:  4px 10px 10px 5px;
+}
+.card-title {
+    font-weight: bold;
+}
+
+
+i {
+    margin: 0 0 3px 10px;
+    
+}
+
+.author {
+    text-align: end;
+}
+
+ul.features {
+    border-top: 1px solid black;
+    padding-left: 0;
+    display: flex;
+}
+ul.features li {
+    list-style: none;
+    display: inline-block;
+    color: rgb(79, 153, 202);
+    border: 1px solid rgb(79, 153, 202);
+    margin-top: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem;
+    padding-right: 7px;
+    transition: all 0.7s;
+}
+ul.features li:hover {
+    background-color:rgb(79, 153, 202);
+    color: #fff;
+}
+button.Loadiing {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* for mobile devices */
+@media (max-width:400px) {
+    .card {
+        width: 20rem;
+    }
+    
+}
+/* for mobile devices */
